@@ -1,0 +1,9 @@
+com\java\jms\basics\FirstTopic.class
+com\java\jms\basics\QueueBrowser.class
+com\java\jms\messageStructure\MessageExpirationDemo.class
+com\java\jms\messageStructure\MessagePropertiesDemo.class
+com\java\jms\basics\JMSContextDemo.class
+com\java\jms\messageStructure\RequestReplyDemo.class
+com\java\jms\messageStructure\MessagePriority.class
+com\java\jms\basics\FirstQueue.class
+com\java\jms\messageStructure\MessageDelayDemo.class
