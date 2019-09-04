@@ -1,0 +1,11 @@
+D:\workspace\spring_projects\hellokoding-courses\jpa-hibernate-examples\jpa-hibernate-circular-reference-jackson\src\main\java\com\hellokoding\jpa\book\Book.java
+D:\workspace\spring_projects\hellokoding-courses\jpa-hibernate-examples\jpa-hibernate-circular-reference-jackson\src\main\java\com\hellokoding\jpa\book\Author.java
+D:\workspace\spring_projects\hellokoding-courses\jpa-hibernate-examples\jpa-hibernate-circular-reference-jackson\src\main\java\com\hellokoding\jpa\book\BookRepository.java
+D:\workspace\spring_projects\hellokoding-courses\jpa-hibernate-examples\jpa-hibernate-circular-reference-jackson\src\main\java\com\hellokoding\jpa\book\BookPublisherRepository.java
+D:\workspace\spring_projects\hellokoding-courses\jpa-hibernate-examples\jpa-hibernate-circular-reference-jackson\src\main\java\com\hellokoding\jpa\book\BookPublisher.java
+D:\workspace\spring_projects\hellokoding-courses\jpa-hibernate-examples\jpa-hibernate-circular-reference-jackson\src\main\java\com\hellokoding\jpa\book\PublisherRepository.java
+D:\workspace\spring_projects\hellokoding-courses\jpa-hibernate-examples\jpa-hibernate-circular-reference-jackson\src\main\java\com\hellokoding\jpa\book\Publisher.java
+D:\workspace\spring_projects\hellokoding-courses\jpa-hibernate-examples\jpa-hibernate-circular-reference-jackson\src\main\java\com\hellokoding\jpa\book\AuthorRepository.java
+D:\workspace\spring_projects\hellokoding-courses\jpa-hibernate-examples\jpa-hibernate-circular-reference-jackson\src\main\java\com\hellokoding\jpa\book\Category.java
+D:\workspace\spring_projects\hellokoding-courses\jpa-hibernate-examples\jpa-hibernate-circular-reference-jackson\src\main\java\com\hellokoding\jpa\book\CategoryRepository.java
+D:\workspace\spring_projects\hellokoding-courses\jpa-hibernate-examples\jpa-hibernate-circular-reference-jackson\src\main\java\com\hellokoding\jpa\JpaApplication.java

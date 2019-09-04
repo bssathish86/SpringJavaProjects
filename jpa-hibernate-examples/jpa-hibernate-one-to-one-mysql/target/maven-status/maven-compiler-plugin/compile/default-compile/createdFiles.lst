@@ -1,0 +1,5 @@
+com\hellokoding\jpa\book\Address.class
+com\hellokoding\jpa\book\AddressRepository.class
+com\hellokoding\jpa\book\LibraryRepository.class
+com\hellokoding\jpa\Application.class
+com\hellokoding\jpa\book\Library.class

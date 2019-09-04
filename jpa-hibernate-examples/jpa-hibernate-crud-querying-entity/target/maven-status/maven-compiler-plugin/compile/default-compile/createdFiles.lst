@@ -1,0 +1,6 @@
+com\hellokoding\jpa\book\Category.class
+com\hellokoding\jpa\book\CategoryService.class
+com\hellokoding\jpa\book\BookRepository.class
+com\hellokoding\jpa\book\CategoryRepository.class
+com\hellokoding\jpa\book\Book.class
+com\hellokoding\jpa\JpaApplication.class

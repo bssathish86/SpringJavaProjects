@@ -1,0 +1,5 @@
+com\hellokoding\jpa\book\Book.class
+com\hellokoding\jpa\book\BookRepository.class
+com\hellokoding\jpa\book\PublisherRepository.class
+com\hellokoding\jpa\JpaApplication.class
+com\hellokoding\jpa\book\Publisher.class
