@@ -1,0 +1,3 @@
+com\techshard\activemq\configuration\JmsConfig.class
+com\techshard\activemq\controller\MessageController.class
+com\techshard\activemq\Application.class

@@ -1,0 +1,25 @@
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+  application:
+      name: activemq-sender
+
+server:
+   port: 9090
+
+# Embedded ActiveMQ Configuration Example
+   activemq:
+      broker-url: tcp://localhost:61616?broker.persistent=false&broker.useJmx=false
+      user: admin
+      password: admin
+
+
+  
+  
+  
+
+
+
+
+  
