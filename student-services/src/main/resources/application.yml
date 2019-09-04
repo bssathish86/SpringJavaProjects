@@ -1,0 +1,90 @@
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+  application:
+      name: student-services
+
+server:
+   port: 8080
+
+logging:
+    console:
+        immediateFlush: true
+    level:
+       org.springframework.security: ERROR
+       org.springframework.web: ERROR
+       org.hibernate: ERROR
+    root: Info
+    file: c:/users/sathishkumar_s/Desktop/mylog.log
+    pattern:
+      console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger : %msg%n"
+      file: "%d{yyyy-MM-dd HH:mm:ss} %-5level [%thread] %logger : %msg%n"
+      
+
+# create and drop tables and sequences, loads import.sql
+spring.jpa:
+  hibernate.ddl-auto: create-drop
+  properties:
+    hibernate.dialect: org.hibernate.dialect.Oracle10gDialect
+  show-sql: true
+  database-platform: org.hibernate.dialect.Oracle10gDialect
+  hibernate.naming.implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl
+  hibernate.naming.physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+
+spring.datasource:
+  driverClassName: oracle.jdbc.OracleDriver
+  url: jdbc:oracle:thin:@localhost:1521/xe
+  username: system
+  password: admin
+  
+  # HikariCP settings
+  hikari:
+    connection-timeout: 30000
+    maximum-pool-size: 50
+
+# Embedded ActiveMQ Configuration Example
+    activemq:
+      broker-url: vm://localhost??broker.persistent=false,useShutdownHook=false
+      in-memory: true
+      non-blocking-redelivery: true
+      packages:
+        trust-all: false
+        trusted: com.memorynotfound
+      pool:
+        block-if-full: true
+        block-if-full-timeout: -1
+        create-connection-on-startup: true
+        enabled: false
+        expiry-timeout: 0
+        idle-timeout: 30000
+        max-connections: 1
+        maximum-active-session-per-connection: 500
+        reconnect-on-exception: true
+        time-between-expiration-check: -1
+        use-anonymous-producers: true
+
+  # Spring JMS Settings
+    jms:
+      listener:
+        acknowledge-mode: auto
+        auto-startup: true
+        concurrency: 5
+        max-concurrency: 10
+      pub-sub-domain: false
+      template:
+        default-destination:
+        delivery-mode: non_persistent
+        priority: 100
+        qos-enabled: true
+        receive-timeout: 1000
+        time-to-live: 36000
+
+  
+  
+  
+
+
+
+
+  
