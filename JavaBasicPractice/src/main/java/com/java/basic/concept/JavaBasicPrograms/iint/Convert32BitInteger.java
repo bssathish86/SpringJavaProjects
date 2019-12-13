@@ -5,8 +5,8 @@ public class Convert32BitInteger {
 	public static void main(String[] args) {
 
 		int int_value = (Integer.MAX_VALUE + 1);
-
-		System.out.println("int values in binary format : " + intToString(-1, 8));
+		System.out.println("int values in binary format : " + intToString(16, 8));
+		System.out.println("int values in binary format : " + intToString(16 + (16 >> 1), 8));
 	}
 
 	/**

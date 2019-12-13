@@ -4,7 +4,8 @@ public class IntegerClass {
 
 	public static void main(String[] args) {
 
-		int int_value = Integer.MAX_VALUE;
+		// int int_value = Integer.MAX_VALUE;
+		int int_value = 16;
 
 		// shifting integer bit values.
 		System.out.println(Integer.toString(Integer.MAX_VALUE, 2));
